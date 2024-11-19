@@ -1,0 +1,3 @@
+/Users/flaviarivero/github/libreria_estandar_C/cmake-build-debug/CMakeFiles/libreria_estandar_C.dir
+/Users/flaviarivero/github/libreria_estandar_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/flaviarivero/github/libreria_estandar_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

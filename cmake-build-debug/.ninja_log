@@ -1,0 +1,14 @@
+# ninja log v6
+1	55	1732036570808947538	build.ninja	d79181b8d6da1fff
+0	219	1732036570815882684	CMakeFiles/libreria_estandar_C.dir/main.c.o	83cb290610603613
+219	332	1732036571034605700	libreria_estandar_C	ced72bb36a4ecd8
+3	291	1732036726319727533	CMakeFiles/libreria_estandar_C.dir/main.c.o	83cb290610603613
+291	423	1732036726608595339	libreria_estandar_C	ced72bb36a4ecd8
+2	248	1732036931028019134	CMakeFiles/libreria_estandar_C.dir/main.c.o	83cb290610603613
+248	369	1732036931273824529	libreria_estandar_C	ced72bb36a4ecd8
+2	171	1732037115498268849	CMakeFiles/libreria_estandar_C.dir/main.c.o	83cb290610603613
+171	270	1732037115666946764	libreria_estandar_C	ced72bb36a4ecd8
+2	228	1732037377758666109	CMakeFiles/libreria_estandar_C.dir/main.c.o	83cb290610603613
+228	350	1732037377984834660	libreria_estandar_C	ced72bb36a4ecd8
+2	161	1732037664672461843	CMakeFiles/libreria_estandar_C.dir/main.c.o	83cb290610603613
+161	288	1732037664831288589	libreria_estandar_C	ced72bb36a4ecd8
