@@ -15,10 +15,10 @@ include_directories()
 add_executable(libreria_estandar_C
         main.c
         main.h
-        ejercicio_2.h
-        ejercicio_2.c
-        ejercicio_1.h
-        ejercicio_1.c
-        ejercicio_3.h
-        ejercicio_3.c
+        ejercicio2/ejercicio_2.h
+        ejercicio2/ejercicio_2.c
+        ejercicio1/ejercicio_1.h
+        ejercicio1/ejercicio_1.c
+        ejercicio3/ejercicio_3.h
+        ejercicio3/ejercicio_3.c
 )

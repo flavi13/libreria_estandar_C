@@ -55,23 +55,23 @@ build CMakeFiles/libreria_estandar_C.dir/main.c.o: C_COMPILER__libreria_estandar
   OBJECT_DIR = CMakeFiles/libreria_estandar_C.dir
   OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir
 
-build CMakeFiles/libreria_estandar_C.dir/ejercicio_2.c.o: C_COMPILER__libreria_estandar_C_unscanned_Debug /Users/flaviarivero/github/libreria_estandar_C/ejercicio_2.c || cmake_object_order_depends_target_libreria_estandar_C
-  DEP_FILE = CMakeFiles/libreria_estandar_C.dir/ejercicio_2.c.o.d
+build CMakeFiles/libreria_estandar_C.dir/ejercicio2/ejercicio_2.c.o: C_COMPILER__libreria_estandar_C_unscanned_Debug /Users/flaviarivero/github/libreria_estandar_C/ejercicio2/ejercicio_2.c || cmake_object_order_depends_target_libreria_estandar_C
+  DEP_FILE = CMakeFiles/libreria_estandar_C.dir/ejercicio2/ejercicio_2.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/libreria_estandar_C.dir
-  OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir/ejercicio2
 
-build CMakeFiles/libreria_estandar_C.dir/ejercicio_1.c.o: C_COMPILER__libreria_estandar_C_unscanned_Debug /Users/flaviarivero/github/libreria_estandar_C/ejercicio_1.c || cmake_object_order_depends_target_libreria_estandar_C
-  DEP_FILE = CMakeFiles/libreria_estandar_C.dir/ejercicio_1.c.o.d
+build CMakeFiles/libreria_estandar_C.dir/ejercicio1/ejercicio_1.c.o: C_COMPILER__libreria_estandar_C_unscanned_Debug /Users/flaviarivero/github/libreria_estandar_C/ejercicio1/ejercicio_1.c || cmake_object_order_depends_target_libreria_estandar_C
+  DEP_FILE = CMakeFiles/libreria_estandar_C.dir/ejercicio1/ejercicio_1.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/libreria_estandar_C.dir
-  OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir/ejercicio1
 
-build CMakeFiles/libreria_estandar_C.dir/ejercicio_3.c.o: C_COMPILER__libreria_estandar_C_unscanned_Debug /Users/flaviarivero/github/libreria_estandar_C/ejercicio_3.c || cmake_object_order_depends_target_libreria_estandar_C
-  DEP_FILE = CMakeFiles/libreria_estandar_C.dir/ejercicio_3.c.o.d
+build CMakeFiles/libreria_estandar_C.dir/ejercicio3/ejercicio_3.c.o: C_COMPILER__libreria_estandar_C_unscanned_Debug /Users/flaviarivero/github/libreria_estandar_C/ejercicio3/ejercicio_3.c || cmake_object_order_depends_target_libreria_estandar_C
+  DEP_FILE = CMakeFiles/libreria_estandar_C.dir/ejercicio3/ejercicio_3.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/libreria_estandar_C.dir
-  OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir
+  OBJECT_FILE_DIR = CMakeFiles/libreria_estandar_C.dir/ejercicio3
 
 
 # =============================================================================
@@ -81,7 +81,7 @@ build CMakeFiles/libreria_estandar_C.dir/ejercicio_3.c.o: C_COMPILER__libreria_e
 #############################################
 # Link the executable libreria_estandar_C
 
-build libreria_estandar_C: C_EXECUTABLE_LINKER__libreria_estandar_C_Debug CMakeFiles/libreria_estandar_C.dir/main.c.o CMakeFiles/libreria_estandar_C.dir/ejercicio_2.c.o CMakeFiles/libreria_estandar_C.dir/ejercicio_1.c.o CMakeFiles/libreria_estandar_C.dir/ejercicio_3.c.o
+build libreria_estandar_C: C_EXECUTABLE_LINKER__libreria_estandar_C_Debug CMakeFiles/libreria_estandar_C.dir/main.c.o CMakeFiles/libreria_estandar_C.dir/ejercicio2/ejercicio_2.c.o CMakeFiles/libreria_estandar_C.dir/ejercicio1/ejercicio_1.c.o CMakeFiles/libreria_estandar_C.dir/ejercicio3/ejercicio_3.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/libreria_estandar_C.dir
   POST_BUILD = :

@@ -7,7 +7,7 @@
 #### 1. Las funciones comunes del lenguaje C (<stdlib.h>)
 
 a. Utiliza la función abs() para calcular el valor absoluto de un número entero. Prueba con varios números, incluyendo negativos.
-
+````c
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -15,16 +15,18 @@ int main() {
 // Declarar un número negativo
 int num = -10;
 
-    // Obtener el valor absoluto utilizando abs()
+// Obtener el valor absoluto utilizando abs()
     int abs_num = abs(num);
 
     printf("El valor absoluto de %d es %d\n", num, abs_num);
 
     return 0;
 }
+````
+
 b. Usa la función rand() para generar un número aleatorio. Luego, usa srand() para cambiar la semilla de la generación de números aleatorios y observa cómo cambian los números generados.
 
-
+````c
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
@@ -37,10 +39,11 @@ srand(time(0));
 
     return 0;
 }
+````
 #### 2. Cadenas (<string.h>)
 
 a. Crea dos cadenas de caracteres y usa la función strcmp() para compararlas. Prueba con cadenas iguales y diferentes.
-
+````c
 #include <string.h>
 #include <stdio.h>
 
@@ -58,8 +61,9 @@ char str2[] = "Mundo";
 
     return 0;
 }
+````
 b. Usa la función strlen() para calcular la longitud de una cadena.
-
+````c
 #include <string.h>
 #include <stdio.h>
 
@@ -72,11 +76,13 @@ char str[] = "Hola mundo";
 
     return 0;
 }
+````
+
 #### 3. Archivos (<stdio.h>)
 
 a. Usa la función fopen() para abrir un archivo de texto. Si el archivo no existe, muestra un mensaje de error.
 
-
+````c
 #include <stdio.h>
 
 int main() {
@@ -86,22 +92,23 @@ printf("El archivo no se pudo abrir.\n");
 return 1;
 }
 
-    // Cerrar el archivo al final
-    fclose(file);
+// Cerrar el archivo al final
+ fclose(file);
 
-    return 0;
+  return 0;
 }
+````
 b. Escribe en un archivo de texto usando fprintf(). Después, lee lo que escribiste usando fscanf().
 
-
+````c
 #include <stdio.h>
 
 int main() {
-FILE *file = fopen("file.txt", "w");
-if (file == NULL) {
-printf("El archivo no se pudo abrir para escritura.\n");
-return 1;
-}
+    FILE *file = fopen("file.txt", "w");
+    if (file == NULL) {
+        printf("El archivo no se pudo abrir para escritura.\n");
+        return 1;
+    }
 
     fprintf(file, "Hola, mundo!\n");
 
@@ -125,26 +132,31 @@ return 1;
 
     return 0;
 }
+````
+
 Aquí te proporciono una guía paso a paso de cómo resolver uno de los ejercicios en CLion:
 
 Vamos a trabajar con el ejercicio 2a, donde creamos dos cadenas de caracteres y usamos la función strcmp() para compararlas.
 
-Paso 1: Crear un nuevo proyecto en CLion
+### Paso 1: Crear un nuevo proyecto en CLion
 
 Inicia CLion.
 Haz clic en "File" en la esquina superior izquierda.
 Selecciona "New Project".
 En la ventana emergente, dale un nombre a tu proyecto (por ejemplo, "CompareStrings").
 Haz clic en "Create".
-Paso 2: Crear un nuevo archivo de código C
+
+### Paso 2: Crear un nuevo archivo de código C
 
 En la vista de proyecto en el lado izquierdo, expande la carpeta de tu proyecto.
 Haz clic derecho en la carpeta "src".
 Selecciona "New" -> "C/C++ Source File".
 Ponle un nombre al archivo (por ejemplo, "main") y selecciona "C" como "File type".
 Haz clic en "OK".
-Paso 3: Escribe el código del ejercicio Copia y pega el siguiente código en tu nuevo archivo de código C:
 
+### Paso 3: Escribe el código del ejercicio Copia y pega el siguiente código en tu nuevo archivo de código C:
+
+````c
 #include <string.h>
 #include <stdio.h>
 
@@ -162,7 +174,9 @@ char str2[] = "Mundo";
 
     return 0;
 }
-#### Paso 4: Compilar y ejecutar el código
+````
+
+### Paso 4: Compilar y ejecutar el código
 
 Haz clic en "Build" en el menú superior.
 Selecciona "Build Project".
