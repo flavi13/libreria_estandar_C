@@ -1,5 +1,5 @@
 # libreria_estandar_C
-(AUN NO TERMINADO)
+
 [Link del repositorio](https://github.com/flavi13/libreria_estandar_C)
 
 ## Enunciado
